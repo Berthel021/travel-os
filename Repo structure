@@ -1,0 +1,61 @@
+travel-os/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   │
+│   ├── plan/
+│   │   └── page.tsx
+│   │
+│   ├── api/
+│   │   ├── generate-itinerary/
+│   │   │   └── route.ts
+│   │   │
+│   │   ├── out/
+│   │   │   └── [clickId]/
+│   │   │       └── route.ts
+│   │   │
+│   │   └── webhook/
+│   │       └── conversion/
+│   │           └── route.ts
+│
+├── components/
+│   ├── TripForm.tsx
+│   ├── ItineraryView.tsx
+│   ├── AffiliateButton.tsx
+│   └── Loading.tsx
+│
+├── lib/
+│   ├── ai/
+│   │   ├── claude.ts
+│   │   ├── prompts.ts
+│   │   └── responseProcessor.ts
+│   │
+│   ├── affiliate/
+│   │   ├── router.ts
+│   │   └── linkGenerator.ts
+│   │
+│   ├── redis.ts
+│   ├── analytics.ts
+│   └── utils.ts
+│
+├── config/
+│   └── affiliates.ts
+│
+├── n8n/
+│   ├── itinerary-workflow.json
+│   ├── click-analytics.json
+│   └── conversion-handler.json
+│
+├── styles/
+│   └── globals.css
+│
+├── public/
+│
+├── .env.example
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+├── package.json
+├── README.md
+└── LICENSE
